@@ -1,4 +1,4 @@
-package hello.class_spring03springmvc206exception;
+package hello.exception;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
