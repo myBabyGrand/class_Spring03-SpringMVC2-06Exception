@@ -1,0 +1,7 @@
+GET http://localhost:8080/api/members/ex
+Accept: text/html
+###
+
+GET http://localhost:8080/api/members/ex
+Accept: application/json
+###API exception 발생시 테스트 - MediaType.APPLICATION_JSON_VALUE 이므로 accept 타입으로 지정
