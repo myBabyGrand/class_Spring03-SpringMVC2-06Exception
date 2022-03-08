@@ -10,3 +10,19 @@ Accept: application/json
 GET http://localhost:8080/api/members/user-ex
 Accept: application/json
 ###API exception 발생시 테스트 - MediaType.APPLICATION_JSON_VALUE 이므로 accept 타입으로 지정
+
+###
+GET http://localhost:8080/api/response-status-ex1
+Accept: application/json
+
+###
+GET http://localhost:8080/api/response-status-ex2
+Accept: application/json
+
+###
+GET http://localhost:8080/api/default-handler-ex?data=10
+Accept: application/json
+
+###
+GET http://localhost:8080/api/default-handler-ex?data=aaa
+Accept: application/json
