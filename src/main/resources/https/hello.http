@@ -26,3 +26,28 @@ Accept: application/json
 ###
 GET http://localhost:8080/api/default-handler-ex?data=aaa
 Accept: application/json
+
+###
+GET http://localhost:8080/api2/members/bad
+Accept: application/json
+
+###
+GET http://localhost:8080/api2/members/user-ex
+Accept: application/json
+
+###
+GET http://localhost:8080/api2/members/ex
+Accept: application/json
+
+
+###
+GET http://localhost:8080/api3/members/bad
+Accept: application/json
+
+###
+GET http://localhost:8080/api3/members/user-ex
+Accept: application/json
+
+###
+GET http://localhost:8080/api3/members/ex
+Accept: application/json
